@@ -112,9 +112,9 @@ function loadData(data) {
 
 function insertDailyData(element, value, increase){
     if(increase){
-        document.getElementById(element).innerHTML = `<img src= '/assets/img/up.png'> Diário ${value.toLocaleString("PT")}`
+        document.getElementById(element).innerHTML = `<img src= '.../assets/img/up.png'> Diário ${value.toLocaleString("PT")}`
     } else {
-        document.getElementById(element).innerHTML = `<img src= '/assets/img/down.png'> Diário ${value.toLocaleString("PT")}`
+        document.getElementById(element).innerHTML = `<img src= '.../assets/img/down.png'> Diário ${value.toLocaleString("PT")}`
     }
 }
 
